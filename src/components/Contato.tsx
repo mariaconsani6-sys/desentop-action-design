@@ -7,8 +7,8 @@ const Contato = () => {
     {
       icon: Phone,
       title: "Telefone",
-      info: "(11) 9999-9999",
-      link: "tel:11999999999",
+      info: "(43) 9999-9999",
+      link: "tel:43999999999",
       cta: "Ligar Agora",
     },
     {
@@ -96,9 +96,9 @@ const Contato = () => {
                   className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-6 shadow-xl"
                   asChild
                 >
-                  <a href="tel:11999999999">
+                  <a href="tel:43999999999">
                     <Phone className="mr-2" size={20} />
-                    Ligar: (11) 9999-9999
+                    Ligar: (43) 9999-9999
                   </a>
                 </Button>
                 <Button
@@ -107,7 +107,7 @@ const Contato = () => {
                   className="border-2 border-white text-white hover:bg-white/10 font-bold text-lg px-8 py-6"
                   asChild
                 >
-                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5543999999999" target="_blank" rel="noopener noreferrer">
                     WhatsApp
                   </a>
                 </Button>

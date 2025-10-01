@@ -8,13 +8,12 @@ const Regioes = () => {
     "Zona Sul",
     "Zona Leste",
     "Zona Oeste",
-    "Região Metropolitana",
-    "Bairros Nobres",
-    "Periferia",
-    "Condomínios",
-    "Áreas Comerciais",
-    "Áreas Industriais",
-    "Residências",
+    "Heimtal",
+    "Gleba Palhano",
+    "Lago Parque",
+    "Jardim Shangri-lá",
+    "Portal de Versalhes",
+    "Parque das Nações",
   ];
 
   return (
@@ -29,7 +28,7 @@ const Regioes = () => {
             Atendemos Sua Região
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Estamos presentes em toda a cidade e região metropolitana
+            Atendemos todos os bairros de Londrina/PR
           </p>
         </div>
 

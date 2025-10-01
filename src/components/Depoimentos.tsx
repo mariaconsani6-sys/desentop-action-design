@@ -4,29 +4,29 @@ import { Card, CardContent } from "@/components/ui/card";
 const Depoimentos = () => {
   const depoimentos = [
     {
-      nome: "Maria Silva",
+      nome: "Gabriel Moreira Nunes",
       localizacao: "Centro",
       avaliacao: 5,
       texto: "Serviço excelente! Chegaram super rápido e resolveram o problema do esgoto em menos de 1 hora. Equipe muito profissional e educada.",
       data: "Há 2 semanas",
     },
     {
-      nome: "João Santos",
+      nome: "Larissa Monteiro Prado",
       localizacao: "Zona Norte",
       avaliacao: 5,
       texto: "Precisei de um desentupimento emergencial às 3h da manhã e eles atenderam prontamente. Preço justo e trabalho impecável!",
       data: "Há 1 mês",
     },
     {
-      nome: "Ana Paula",
+      nome: "Matheus Vinícius Cardoso",
       localizacao: "Zona Sul",
       avaliacao: 5,
       texto: "Recomendo demais! Fizeram o desentupimento da pia da cozinha e ainda deram dicas para evitar novos entupimentos. Muito atenciosos!",
       data: "Há 3 semanas",
     },
     {
-      nome: "Carlos Eduardo",
-      localizacao: "Zona Leste",
+      nome: "Isabella Figueiredo Lopes",
+      localizacao: "Gleba Palhano",
       avaliacao: 5,
       texto: "Empresa séria e comprometida. Resolveram um problema complexo de esgoto que outras empresas não conseguiram. Nota 10!",
       data: "Há 1 semana",

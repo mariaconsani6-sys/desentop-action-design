@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="text-white animate-fade-in">
+          <div className="animate-fade-in">
             <div className="inline-block bg-accent/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-accent/30">
               <p className="text-accent-light font-bold flex items-center gap-2">
                 <Clock size={18} />
@@ -30,12 +30,12 @@ const Hero = () => {
               </p>
             </div>
 
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight text-primary">
               Desentupimento
               <span className="block text-accent-light">Rápido e Eficaz</span>
             </h1>
 
-            <p className="text-xl lg:text-2xl mb-8 text-white/90 leading-relaxed">
+            <p className="text-xl lg:text-2xl mb-8 text-primary leading-relaxed">
               Chegamos em até <span className="font-bold text-accent-light">30 minutos</span> para resolver seu problema com urgência e qualidade
             </p>
 
@@ -62,11 +62,11 @@ const Hero = () => {
 
             {/* Quick Info */}
             <div className="flex flex-wrap gap-6">
-              <div className="flex items-center gap-2 text-white/90">
+              <div className="flex items-center gap-2 text-primary">
                 <MapPin size={20} className="text-accent-light" />
                 <span className="font-medium">Atendemos toda região</span>
               </div>
-              <div className="flex items-center gap-2 text-white/90">
+              <div className="flex items-center gap-2 text-primary">
                 <Clock size={20} className="text-accent-light" />
                 <span className="font-medium">Emergências 24/7</span>
               </div>
