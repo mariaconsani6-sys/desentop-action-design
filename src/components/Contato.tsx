@@ -103,8 +103,7 @@ const Contato = () => {
                 </Button>
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="border-2 border-white text-white hover:bg-white/10 font-bold text-lg px-8 py-6"
+                  className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-6"
                   asChild
                 >
                   <a href="https://wa.me/5543999999999" target="_blank" rel="noopener noreferrer">
