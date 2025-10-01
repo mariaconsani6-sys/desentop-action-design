@@ -1,6 +1,10 @@
 import { Droplet, Trash2, Waves, WashingMachine } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import servicoPia from "@/assets/servico-pia.jpg";
+import servicoRalo from "@/assets/servico-ralo.jpg";
+import servicoEsgoto from "@/assets/servico-esgoto.jpg";
+import servicoVaso from "@/assets/servico-vaso.jpg";
 
 const Servicos = () => {
   const servicos = [
@@ -9,24 +13,28 @@ const Servicos = () => {
       title: "Desentupimento de Pia",
       description: "Desobstruímos pias de cozinha e banheiro rapidamente, sem danificar a tubulação",
       items: ["Pia de cozinha", "Pia de banheiro", "Tanque", "Lavatório"],
+      image: servicoPia,
     },
     {
       icon: Trash2,
       title: "Desentupimento de Ralo",
       description: "Removemos entupimentos de ralos com equipamentos modernos e eficientes",
       items: ["Ralo de box", "Ralo de área", "Ralo de quintal", "Ralo externo"],
+      image: servicoRalo,
     },
     {
       icon: Waves,
       title: "Desentupimento de Esgoto",
       description: "Solucionamos problemas complexos de esgoto com tecnologia avançada",
       items: ["Esgoto residencial", "Esgoto comercial", "Fossa séptica", "Caixa de gordura"],
+      image: servicoEsgoto,
     },
     {
       icon: WashingMachine,
       title: "Desentupimento de Vaso",
       description: "Desentupimos vasos sanitários preservando a louça e o sistema hidráulico",
       items: ["Vaso sanitário", "Cano de descarga", "Sifão", "Tubulação interna"],
+      image: servicoVaso,
     },
   ];
 
@@ -53,6 +61,16 @@ const Servicos = () => {
               >
                 <div className="h-2 bg-gradient-to-r from-primary to-accent transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
                 
+                {/* Service Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={servico.image} 
+                    alt={servico.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                </div>
+
                 <CardHeader>
                   <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                     <Icon size={28} className="text-accent group-hover:text-accent-foreground" />
